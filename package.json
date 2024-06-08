@@ -1,0 +1,28 @@
+{
+  "name": "verusbots",
+  "version": "1.0.0",
+  "description": "OinkBot is a community built artificial intelligence bot that helps users around in the community",
+  "main": "oinkbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreyas-ITB/Verus-LLMBots.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Shreyas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shreyas-ITB/Verus-LLMBots/issues"
+  },
+  "homepage": "https://github.com/Shreyas-ITB/Verus-LLMBots#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}

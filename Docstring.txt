@@ -1,0 +1,69 @@
+    """
+    A function that sends a POST request to a specified API endpoint with a question to retrieve a response. 
+    It returns a tuple containing the answer to the question, the document used to generate the answer, and the time taken to process the request.
+    Parameters:
+        question (str): The question to be sent in the POST request.
+    Returns:
+        Tuple[str, str, float]: A tuple containing the answer, the document used, and the time taken.
+    """
+
+    """
+    A function that retrieves files from a specified URL asynchronously and returns source_docs_files and model_files.
+    """
+
+    """
+    A function that clears the source docs by sending a post request to a specified endpoint.
+    Returns the message from the response data.
+    """
+
+    """
+    Measure the time taken to establish a connection using the provided IP address and port.
+    Parameters: 
+        ip_address (str): The IP address to connect to.
+        port (int): The port number to connect to.
+    Returns:
+        float: The latency in milliseconds.
+    """
+
+    """
+    A function that changes the bot's status and activities periodically.
+    """
+
+    """
+    A function that is triggered when the client is ready. 
+    It logs the user in and starts a change status task. 
+    It then tries to sync the client's tree and prints the number of successfully synced commands. 
+    If an exception occurs during syncing, it prints a failure message. 
+    Finally, it enables status updates.
+    """
+
+    """
+    A function to handle errors that occur during application commands.
+
+    Parameters:
+    - interaction: discord.Interaction - the interaction that triggered the error
+    - error: Any - the error that occurred
+
+    Returns:
+    - None
+    """
+
+    """
+    A description of the entire function, its parameters, and its return types.
+    """
+
+    """
+    Returns latency of the API and the bot!
+    """
+
+    """
+    Returns the model files and the source datasets currently available on the API!
+    """
+
+    """
+    A command to clear the source documentation with the correct authorization check.
+    """
+
+    """
+    A description of the entire function, its parameters, and its return types.
+    """
